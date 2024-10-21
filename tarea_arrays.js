@@ -1,15 +1,11 @@
 // 1. Qué son los Arrays
 // 1.1 Crea una función llamada procesarPedido que recibe un array pedido.
-// Debes sacar el primer elemento (nombre del cliente), añadir "bebida" al inicio del array y añadir el nombre del cliente al final.
-function procesarPedido(pedido) {
-    // Tu código aquí
-    function procesarPedido(pedido) {
-        const cliente = pedido.shift();
-        pedido.unshift("bebida");
-        pedido.push(cliente);
-        return pedido;
-    }
-    
+// Debes sacar el primer elemento (nombre del cliente), añadir "bebida" al inicio del array y añadir el nombre del cliente al final. 
+function procesarPedido(pedido) {  
+    const cliente = pedido.shift();   
+    pedido.unshift("bebida");  
+    pedido.push(cliente);  
+    return pedido;   
 }
 
 // 2. Iteración de Arrays en Javascript
