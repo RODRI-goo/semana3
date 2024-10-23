@@ -140,11 +140,8 @@ function evaluarNumeros(a, b, c) {
         console.log("Al menos uno es negativo");  
     } else if (a < 0 && b < 0 && c < 0) {  
         console.log("Todos son negativos");  
-    } else {  
-        // Esto manejará el caso cuando todas las entradas son cero  
-        console.log("Todos son cero");  
+    }
     }  
-}
 
 // Exportar todas las funciones
 export {
